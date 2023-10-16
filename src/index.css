@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+[data-theme='dark'] {
+  --background-color: #152F3B;
+  --color: #ffffff;
+  --button-background-color: #1e99d9;
+}
+
+[data-theme='light'] {
+  --background-color: #f4f4f6;
+  --color: #152F3B;
+  --button-background-color: #1090e1;
+}
+
+[skill-name='html'] {
+  --background-from: black;
+  --background-to: red;
+  --width: 16vw;
+}
+
+[skill-name='css'] {
+  --background-from: green;
+  --background-to: blue;
+  --width: 10vw;
+}
+
+[skill-name='javascript'] {
+  --background-from: pink;
+  --background-to: #6b0ce5;
+  --width: 12vw;
+}
+
+[skill-name='react'] {
+  --background-from: #f3e11d;
+  --background-to: #fc813f;
+  --width: 9vw;
+}

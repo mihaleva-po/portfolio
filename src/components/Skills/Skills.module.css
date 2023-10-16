@@ -1,0 +1,14 @@
+
+
+.skill {
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.skill p {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+

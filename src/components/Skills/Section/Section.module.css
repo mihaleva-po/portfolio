@@ -1,0 +1,41 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 39%;
+}
+
+
+.line_html {
+    height: 25px;
+    width: 20vw;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+/*@keyframes travel_skill {*/
+/*    from {*/
+/*        background: var(--background-from);*/
+/*        width: 1vw;*/
+/*    }*/
+/*    to {*/
+/*        background: var(--background-to);*/
+/*        width: var(--width);*/
+/*    }*/
+/*}*/
+
+.line_html_color {
+    background: var(--background-to);
+    border-radius: 20px;
+    height: 25px;
+    width: var(--width);
+    animation-name: travel_skill;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+.line_html_color:hover {
+    animation: none;
+}

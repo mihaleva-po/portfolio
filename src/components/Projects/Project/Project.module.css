@@ -1,0 +1,27 @@
+.description {
+    border: #6b0ce5 2px solid;
+    width: 200px;
+    height: 200px;
+}
+
+.poster {
+    border: #6b0ce5 2px solid;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: zoomCards 1s ease;
+}
+
+@keyframes zoomCards {
+    from {
+        opacity: 0;
+
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0) scale(1);
+    }
+}
