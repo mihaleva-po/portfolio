@@ -13,16 +13,16 @@
     border-radius: 20px;
 }
 
-/*@keyframes travel_skill {*/
-/*    from {*/
-/*        background: var(--background-from);*/
-/*        width: 1vw;*/
-/*    }*/
-/*    to {*/
-/*        background: var(--background-to);*/
-/*        width: var(--width);*/
-/*    }*/
-/*}*/
+@keyframes travel_skill {
+    from {
+        background: var(--background-from);
+        width: 1vw;
+    }
+    to {
+        background: var(--background-to);
+        width: var(--width);
+    }
+}
 
 .line_html_color {
     background: var(--background-to);
